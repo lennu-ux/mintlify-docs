@@ -86,8 +86,8 @@
     ]
   },
   "logo": {
-    "light": "/images/rise-crest-logo-white.png",
-    "dark": "/images/rise-crest-logo-black.png",
+    "light": "/images/rise-crest-logo-black.png",
+    "dark": "/images/rise-crest-logo-white.png",
     "href": "https://www.risegroup.eu"
   },
   "navbar": {
@@ -162,5 +162,8 @@
   "description": "Rise-konsernin oikeudelliset asiakirjat: sopimusehdot, tietosuoja ja alikäsittelijät. Legal documents for the Rise group.",
   "search": {
     "prompt": "Hae asiakirjoista"
+  },
+  "appearance": {
+    "default": "light"
   }
 }
