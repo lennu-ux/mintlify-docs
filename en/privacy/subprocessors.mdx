@@ -1,0 +1,133 @@
+---
+title: "Subprocessors"
+sidebarTitle: "Subprocessors"
+description: "The service providers Rise relies on, what they do, where your data is processed, and how we notify you before the list changes."
+---
+
+**Rise Financial Group AG**
+Registration number: CHE-276.208.367
+Last updated: 21 September 2026
+
+---
+
+This page applies across the Rise group — Rise Financial Group AG and every company under it, including Rise Technologies Oy, which operates the Rise platform and provides the accounting service.
+
+When Rise processes your data, we rely on a small number of trusted service providers. This page lists them, what they do, and where your data is processed — the subprocessors of the Rise service first, then the providers we use to run our own business and website.
+
+We keep this list short on purpose. Fewer providers means fewer places your data can go.
+
+## What a subprocessor is
+
+A **subprocessor** is a company that processes your personal data on our behalf, under our instructions, as part of delivering the Rise service. Under the GDPR you are the controller of that data and we are the processor — so you have the right to know who else touches it.
+
+Your service agreement is with the group company that provides your service — currently **Rise Technologies Oy**. This page covers the subprocessors that company relies on, including other companies within the Rise group.
+
+The first table lists the subprocessors of the Rise service. The second lists providers we use to run our own business and marketing website, where Rise is the controller rather than your processor — none of them receive your accounting data. We list both, because we would rather you see the whole picture.
+
+## Subprocessors
+
+These providers process customer data on your behalf under our Data Processing Agreement.
+
+| Subprocessor | Service | Processing location | Transfer basis |
+|---|---|---|---|
+| **Amazon Web Services EMEA SARL** (Luxembourg) | Cloud infrastructure, hosting of the Rise platform, AI inference via Amazon Bedrock, and transactional email delivery (Amazon SES) | Frankfurt, Germany (eu-central-1) | EU/EEA. Where AWS support staff may access data from outside the EEA, the AWS Data Processing Addendum and EU Standard Contractual Clauses apply. |
+| **Stream** — the chat platform at [getstream.io](https://getstream.io), operated by Stream.io, Inc. | In-app messaging between you and your accountant — message content, attachments, and user identifiers | EU region. The company is incorporated in the United States; our application is configured to the EU region. | Standard Contractual Clauses. Stream's own subprocessors are published at [getstream.io/legal/subprocessors](https://getstream.io/legal/subprocessors/) |
+| **Netbox Finland Oy** | E-invoicing operator — sending and receiving e-invoices in Finland. Bank connectivity via Finnish banks' web services (WS) — retrieving bank statements and transmitting payment material. | Finland | EU/EEA |
+| **Enable Banking Oy** | Bank connectivity via PSD2 interfaces — retrieving account information and initiating payments | Finland | EU/EEA |
+| **Sum and Substance Ltd** (Sumsub, company no. 09688671) | Identity verification — checking identity documents and a facial image for liveness confirmation when your authorised representatives sign the service agreement | Germany — Sumsub stores and processes all personal data on designated servers in European data centres | Data remains in the EU. The contracting entity is registered in the United Kingdom, covered by the European Commission's adequacy decision. |
+| **Oneflow AB** | Electronic signing of the service agreement and related documents | Sweden | EU/EEA |
+| **Google Ireland Limited** (Firebase Cloud Messaging) | Push notifications to the Rise mobile app — device tokens and notification content | European Union, with processing by Google LLC | EU-US Data Privacy Framework and Standard Contractual Clauses |
+| **Apple Inc.** (Apple Push Notification service) | Push notifications to the Rise iOS app — device tokens and notification content | United States | Standard Contractual Clauses |
+| **Slack Technologies** (Salesforce) | Shared communication channel with your Rise team. **Being phased out** — replaced by in-app messaging. | United States | EU-US Data Privacy Framework and Standard Contractual Clauses |
+| **Notion Labs, Inc.** | Internal working records, including supplier listings prepared during onboarding | United States | EU-US Data Privacy Framework and Standard Contractual Clauses |
+| **Rise Financial Group AG** | Group-level administration: data protection governance, service development, group reporting | Stans, Switzerland | European Commission adequacy decision for Switzerland |
+
+<Note>
+**Subprocessors of our subprocessors.** Several of the providers above use their own subprocessors, and they publish their own lists — Stream at [getstream.io/legal/subprocessors](https://getstream.io/legal/subprocessors/), AWS at [aws.amazon.com/compliance/sub-processors](https://aws.amazon.com/compliance/sub-processors/). We review these lists as part of our own change notifications to you.
+</Note>
+
+## Data sources you connect
+
+Rise can read accounting material directly from systems you already use, so that you do not have to forward it manually. You decide which sources to connect, based on how your business actually works.
+
+<Info>
+**These sources are not our subprocessors.** They are your own providers, under your own agreements with them. You authorise us to access them, we access only what that authorisation permits, and you can withdraw it at any time — without affecting the rest of the service.
+</Info>
+
+**Sources you can connect**
+
+| Source | What we retrieve | Access |
+|---|---|---|
+| **Your previous accounting system** — for example Procountor, Netvisor, Fennoa, or Talenom | Accounting history and supporting documents, so they can be transferred into Rise | Read access with the credentials you provide, for the duration of the transition |
+| **Email and calendar** — Google Workspace, Microsoft 365 | Receipts, invoices, booking confirmations and other accounting documents, and calendar entries needed for travel and expense claims | Read only, granted through the provider's own authorisation flow |
+
+**How email and calendar access is limited**
+
+We ask for the narrowest access that lets us do the job:
+
+- **We search for specific documents.** We do not read your mailbox as a whole.
+- **We store only what belongs in your accounts** — the accounting documents we find. Everything else stays where it is.
+- **We never receive permission to delete, modify, or send.** These privileges are excluded from the authorisation request itself, not merely from our internal rules.
+- **You can revoke access at any time** from your own Google or Microsoft account, without going through us.
+
+**Once material is in Rise**
+
+When a document has been retrieved and stored in Rise, it becomes part of the accounting data we process for you. From that point the Data Processing Agreement and the subprocessors listed above apply to it — the same as for anything you upload yourself.
+
+## AI processing
+
+Rise uses AI to read receipts and invoices, propose bookkeeping entries, and flag anomalies.
+
+Inference runs on **Amazon Bedrock in Frankfurt**, using Anthropic's Claude model. This matters for three reasons:
+
+- Your data stays in the EU. It is not sent to the United States for processing.
+- Bedrock does not store your prompts or the model's responses.
+- The model developer receives no access to your data. Anthropic is the model supplier, not a processor of your information.
+
+Your data is never used to train AI models.
+
+All bookkeeping entries that materially affect your accounts are reviewed by a KLT-qualified accountant before they are posted.
+
+## Our own service providers
+
+Rise is the controller for the data below, not your processor. **None of these providers receive your accounting data, receipts, payroll data, or bank transactions.**
+
+| Provider | What we use it for | What it holds | Location |
+|---|---|---|---|
+| **PostHog** | Product analytics — understanding how the Rise application is used so we can improve it | Usage events and technical metadata. No accounting data. | EU Cloud, Frankfurt |
+| **Attio** | Customer relationship management | Company details and business contact information — names, work email addresses, roles. No accounting data. | Hosted on Google Cloud EMEA, Dublin, Ireland. Enrichment providers outside the EEA — see below. |
+| **HubSpot** | Customer relationship management and meeting scheduling. **Being replaced by Attio.** | Business contact information and meeting bookings. No accounting data. | European Union |
+| **Fireflies** ([fireflies.ai](https://fireflies.ai)) | Recording and transcribing sales and customer meetings | Meeting recordings and transcripts. No accounting data. | United States — Standard Contractual Clauses |
+| **Skribble AG** | Electronic signing of internal and corporate documents. Not used for customer agreements — those are signed with Oneflow. | Signatory details on internal documents. No customer data. | Switzerland — adequacy decision |
+| **Webflow, Inc.** | Marketing website hosting, form handling, content delivery | Contact form submissions and website technical data. No accounting data. | United States — EU-US Data Privacy Framework and Standard Contractual Clauses |
+| **Cloudflare, Inc.** (via Webflow) | Content delivery, DDoS protection, bot management for the marketing website | Website technical data. No accounting data. | United States — EU-US Data Privacy Framework and Standard Contractual Clauses |
+| **Google LLC** (Google Analytics) | Marketing website analytics, with your consent only, IP anonymised | Website usage data. No accounting data. | United States — EU-US Data Privacy Framework and Standard Contractual Clauses |
+
+<Note>
+**About contact data enrichment.** Attio's enrichment features are enabled in our account. This means business contact details — name, work email address, company, and role — may be sent to third-party data providers based outside the EEA, which return additional publicly available business information. Attio's full subprocessor list, including these providers and their locations, is published at [trust.attio.com/subprocessors](https://trust.attio.com/subprocessors).
+
+This applies only to business contact data held in our CRM. It never involves your accounting data, receipts, payroll data, or bank transactions.
+</Note>
+
+How we handle this data, and the legal basis for it, is described in our [Privacy Policy](/en/privacy/privacy-policy).
+
+## Changes to this list
+
+You have given general written authorisation for us to use subprocessors. When we intend to add or replace one, here is what happens:
+
+1. **We notify you at least 30 days before the change takes effect.** The notice goes to the data protection contact address you gave us in the service agreement. You do not need to ask for it.
+2. **You may object within 30 days.** If you do, and we cannot resolve your concern, either party may terminate the part of the service affected by the change, as set out in the Data Processing Agreement.
+3. **Every subprocessor is bound by a data processing agreement** imposing data protection obligations equivalent to our own. We remain responsible to you for their performance as if it were our own.
+
+If a subprocessor has to be replaced at short notice — for example because a provider ceases operations — we will notify you without delay and your right to object is unaffected.
+
+To receive these notices by email, write to us at the address below.
+
+## Questions
+
+Write to [support@risegroup.eu](mailto:support@risegroup.eu). We answer data protection questions ourselves; they do not go to a ticket queue.
+
+---
+
+**Rise Financial Group AG** · CHE-276.208.367 · Stans, Switzerland
+Operating company: **Rise Technologies Oy** · Business ID 3512553-2 · Jyväskylä, Finland

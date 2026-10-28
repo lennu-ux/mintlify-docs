@@ -1,53 +1,96 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "sequoia",
+  "name": "Rise Legal",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#C9A84C",
+    "light": "#D9BE72",
+    "dark": "#2A2A2A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "languages": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "language": "fi",
+        "default": true,
+        "groups": [
+          {
+            "group": "Rise Legal",
+            "icon": "scale-balanced",
+            "pages": [
+              "fi/index",
+              "fi/konserni",
+              "fi/versiot"
+            ]
+          },
+          {
+            "group": "Sopimusehdot",
+            "icon": "file-contract",
+            "pages": [
+              "fi/ehdot/index",
+              "fi/ehdot/sopimusehdot",
+              "fi/ehdot/liite1-hintaliite",
+              "fi/ehdot/liite2-henkilotietojen-kasittely",
+              "fi/ehdot/liite2a-seloste-kasittelytoimista",
+              "fi/ehdot/liite2b-tietoturva",
+              "fi/ehdot/liite3-palvelukuvaus",
+              "fi/ehdot/liite4-saas",
+              "fi/ehdot/liite5-eettiset-periaatteet",
+              "fi/ehdot/liite6-tal2023",
+              "fi/ehdot/liite7-valtakirja"
+            ]
+          },
+          {
+            "group": "Tietosuoja",
+            "icon": "shield-halved",
+            "pages": [
+              "fi/tietosuoja/tyontekijan-valtuutus"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Rise Legal",
+            "icon": "scale-balanced",
+            "pages": [
+              "en/index",
+              "en/group",
+              "en/versions"
+            ]
+          },
+          {
+            "group": "Data protection",
+            "icon": "shield-halved",
+            "pages": [
+              "en/privacy/privacy-policy",
+              "en/privacy/subprocessors",
+              "en/privacy/cookie-policy",
+              "en/privacy/faq"
+            ]
+          },
+          {
+            "group": "Service agreement",
+            "icon": "file-contract",
+            "pages": [
+              "en/terms/index"
+            ]
+          }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "risegroup.eu",
+      "href": "https://risegroup.eu"
     }
   },
   "contextual": {
@@ -64,9 +107,56 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "website": "https://risegroup.eu"
+    },
+    "links": [
+      {
+        "header": "Rise",
+        "items": [
+          {
+            "label": "risegroup.eu",
+            "href": "https://risegroup.eu"
+          },
+          {
+            "label": "support@risegroup.eu",
+            "href": "mailto:support@risegroup.eu"
+          }
+        ]
+      },
+      {
+        "header": "Tietosuoja",
+        "items": [
+          {
+            "label": "Tietosuojaseloste",
+            "href": "https://legal.risegroup.eu/en/privacy/privacy-policy"
+          },
+          {
+            "label": "Alikäsittelijät",
+            "href": "https://legal.risegroup.eu/en/privacy/subprocessors"
+          },
+          {
+            "label": "Evästekäytäntö",
+            "href": "https://legal.risegroup.eu/en/privacy/cookie-policy"
+          }
+        ]
+      },
+      {
+        "header": "Sopimus",
+        "items": [
+          {
+            "label": "Sopimusehdot",
+            "href": "https://legal.risegroup.eu/fi/ehdot/index"
+          },
+          {
+            "label": "Versiohistoria",
+            "href": "https://legal.risegroup.eu/fi/versiot"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Rise-konsernin oikeudelliset asiakirjat: sopimusehdot, tietosuoja ja alikäsittelijät. Legal documents for the Rise group.",
+  "search": {
+    "prompt": "Hae asiakirjoista"
   }
 }
