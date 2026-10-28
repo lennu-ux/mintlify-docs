@@ -7,7 +7,10 @@
     "light": "#D9BE72",
     "dark": "#2A2A2A"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/rise-crest-logo-white.png",
+    "dark": "/images/rise-crest-logo-black.png"
+  },
   "navigation": {
     "languages": [
       {
@@ -83,8 +86,9 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/rise-crest-logo-white.png",
+    "dark": "/images/rise-crest-logo-black.png",
+    "href": "https://www.risegroup.eu"
   },
   "navbar": {
     "primary": {
